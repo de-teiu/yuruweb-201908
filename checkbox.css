@@ -1,0 +1,19 @@
+/** チェックボックスの見た目をカスタマイズする場合、元々のチェックボックス要素は非表示にしておく */
+#chk-custom {
+    display: none;
+}
+
+/** チェックボックス要素の直後のラベル要素を色々カスタマイズする */
+#chk-custom + label {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:rgb(255, 0, 0);
+    line-height: 100px;
+    text-align: center;
+}
+/** チェック済の場合に見た目を変える */
+#chk-custom:checked + label {
+    background:rgb(0, 0, 255);
+    color: white;
+}
