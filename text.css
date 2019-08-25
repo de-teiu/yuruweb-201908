@@ -32,3 +32,25 @@ p {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.gradient2 {
+    background: linear-gradient(0deg, white, blue);
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    text-shadow: -1px -1px 1px red, 1px -1px 1px red, -1px 1px 1px red,
+        1px 1px 1px red;
+}
+
+.sample {
+    background: cadetblue;
+    text-shadow: 0px 0px 20px blue;
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: -1px -1px 1px blue, 1px -1px 1px blue, 
+-1px 1px 1px blue, 1px 1px 1px blue;
+
+}
